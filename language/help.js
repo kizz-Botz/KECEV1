@@ -16,7 +16,7 @@ return`
 │• ${prefix}group [option]
 │• ${prefix}editinfo [option]
 │• ${prefix}add @user
-│ ${prefix}kick @user
+│•${prefix}kick @user
 │• ${prefix}hidetag [text]
 │• ${prefix}tagall [text]
 │• ${prefix}antilink [on/off]
