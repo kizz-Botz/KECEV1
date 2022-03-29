@@ -2540,7 +2540,7 @@ case 'sewabot': case 'donasi': case 'sewa': case 'buypremium': case 'donate': {
     }
 	break
     case 'grupowner': {
-         yol.sendContact(m.chat, global.grupowner, m)
+         yol.sendMessage(m.chat, global.grupowner, m)
             }
          break
             default:
