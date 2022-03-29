@@ -2540,8 +2540,9 @@ case 'sewabot': case 'donasi': case 'sewa': case 'buypremium': case 'donate': {
     }
 	break
     case 'grupowner': {
-         m.reply('https://chat.whatsapp.com/JOxS05d1WWO529F40SEVEa')
-         }
+         yol.sendContact(m.chat, global.grupowner, m)
+            }
+         break
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return m.reply(mess.owner)
